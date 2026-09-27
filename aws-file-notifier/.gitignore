@@ -1,0 +1,22 @@
+# Local AWS configuration containing real ARNs/account details
+*.local.json
+
+# Credentials and environment secrets
+.aws/
+.env
+.env.*
+!.env.example
+credentials
+*.pem
+*.key
+
+# Deployment archives
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor settings
+.vscode/
+.idea/
